@@ -17,4 +17,4 @@
 ## Preparação - Aula 3
 
 - ✅ [React] renderização condicional
-- 🛑 [React] renderização de listas
+- ✅ [React] renderização de listas
