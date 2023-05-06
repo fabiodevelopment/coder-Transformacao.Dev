@@ -20,7 +20,7 @@ export default function ProdutoItem(props: ProdutoItemProps) {
                 src={produto.imagem}
                 width={300} height={300}
                 alt={produto.nome}
-                priority
+                priority={false}
                 className="rounded-md"
             />
             <div className="flex flex-col p-3 gap-3">

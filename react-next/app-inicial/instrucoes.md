@@ -18,3 +18,11 @@
 
 - ✅ [React] renderização condicional
 - ✅ [React] renderização de listas
+
+## Preparação - Aula 4
+
+- ✅ [React] Componente de Layout com Grid
+- 🔴 [React] Hooks personalizados
+- 🔴 [React] Chamar api https://swapi.dev
+
+- 🔴 [React] Hooks... useState, useEffect e useCallback
