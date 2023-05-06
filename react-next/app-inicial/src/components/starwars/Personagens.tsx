@@ -1,37 +1,24 @@
-import useProcessando from "@/data/hooks/useProcessando"
+import useStarWars from "@/data/hooks/useStarWars"
 
-export default function Personagens() {
+interface PersonagensProps {
+    personagens: any[]
+}
 
-    const { processando, iniciarProcessamento, finalizarProcessamento } = useProcessando()
+export default function Personagens(props: PersonagensProps) {
 
-    async function simularChamadaAPI() {
-
-        return new Promise(resolve => {
-            setTimeout(() => {
-                resolve(1)
-            }, 6000)
-        })
-    }
-
-    async function obterPersonagens() {
-        try {
-            iniciarProcessamento()
-            await simularChamadaAPI()
-        } finally {
-            finalizarProcessamento()
-        }
+    function renderizarPersonagens() {
+        return (
+            <ul>
+                {props.personagens.map((personagem: any) => (
+                    <li key={personagem.name}>{personagem.name}</li>
+                ))}
+            </ul>
+        )
     }
 
     return (
         <div>
-            {processando ? (
-                <div>Processando...</div>
-            ) : (
-                <h1>Conteúdo com os personagens</h1>
-            )}
-            <button onClick={obterPersonagens} className="botao mt-4">
-                Obter
-            </button>
-        </div>
+            {renderizarPersonagens()}
+        </div >
     )
 }
