@@ -29,8 +29,8 @@
 
 - ✅ [React] Hooks... useState, useEffect e useCallback
 
-## Preparação - Aula 5
+## Preparação - Aula 6
 
-- 🔴 [React] Hooks... useState, useEffect e useCallback - StarWars
+- ✅ [React] Hooks... useState, useEffect e useCallback - StarWars
 
 🔴
