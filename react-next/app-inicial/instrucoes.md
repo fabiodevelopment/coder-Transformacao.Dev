@@ -23,6 +23,10 @@
 
 - ✅ [React] Componente de Layout com Grid
 - ✅ [React] Hooks personalizados
-- 🔴 [React] Chamar api https://swapi.dev
+- ✅ [React] Chamar api https://swapi.dev
 
-- 🔴 [React] Hooks... useState, useEffect e useCallback
+## Preparação - Aula 5
+
+- ✅ [React] Hooks... useState, useEffect e useCallback
+
+🔴
