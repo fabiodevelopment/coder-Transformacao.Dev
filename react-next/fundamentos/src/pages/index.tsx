@@ -1,3 +1,5 @@
+import { Icon24Hours } from "@tabler/icons-react"
+
 export default function Home() {
   return (
     <div className={`
@@ -5,7 +7,9 @@ export default function Home() {
       bg-black text-white text-6xl
 
     `}>
-      <h1>Fundamentos</h1>
+      <Icon24Hours size={100} strokeWidth={1} />
+      <span>Fundamentos</span>
+
     </div>
   )
 }
