@@ -16,13 +16,6 @@ export default function handler(
                     font-size: 5rem;
                 }
             </style>
-            <script>
-                function atualizarHora() {
-                    document.querySelector('span').textContent =
-                        new Date().toLocaleTimeString('pt-BR')
-                }
-                setInterval(atualizarHora, 1000)
-            </script>
         </head>
         
         <body>
