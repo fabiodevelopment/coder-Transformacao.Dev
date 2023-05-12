@@ -2,7 +2,7 @@ import Linha from "@/components/layout/Linha"
 import Menu from "@/components/template/Menu"
 import MenuItem from "@/components/template/MenuItem"
 import Pagina from "@/components/template/Pagina"
-import { IconArrowMoveDown, IconArrowMoveUp, IconArrowsDiff, IconClick, IconClock, IconComponents, IconH1, IconSitemap, IconSourceCode, IconTable } from "@tabler/icons-react"
+import { IconArrowMoveDown, IconArrowMoveUp, IconArrowsDiff, IconClick, IconClock, IconComponents, IconDatabase, IconH1, IconNumbers, IconRotate2, IconSitemap, IconSourceCode, IconTable } from "@tabler/icons-react"
 
 export default function Home() {
   return (
@@ -65,6 +65,23 @@ export default function Home() {
             url="/examples/indireta"
             className="bg-gradient-to-r from-cyan-500 to-green-500" >
             Comunicação Indireta
+          </MenuItem>
+        </Linha>
+        <Linha>
+          <MenuItem icone={<IconNumbers />}
+            url="/examples/estado"
+            className="bg-gradient-to-r from-blue-400 to-purple-500" >
+            Com Estado
+          </MenuItem>
+          <MenuItem icone={<IconDatabase />}
+            url="/examples/contexto"
+            className="bg-gradient-to-r from-blue-400 to-purple-500" >
+            Contexto compartilhado
+          </MenuItem>
+          <MenuItem icone={<IconRotate2 />}
+            url="/examples/promocoes"
+            className="bg-gradient-to-r from-blue-400 to-purple-500" >
+            Conteúdo Server-Side
           </MenuItem>
         </Linha>
 
