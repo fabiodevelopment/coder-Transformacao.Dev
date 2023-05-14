@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-Projeto desenvolvido durante a semana Transformação Dev - Coder Cursos.
-Repositório Bitcent <b>versão Implementada e customizada por [Fabio Haddad Paes](https://github.com/fabiodevelopment/)</b>
+Projeto desenvolvido durante a semana Transformação Dev - Coder Cursos.<br/>
+Repositório Bitcent <b>versão completa implementada e customizada por <a href="https://github.com/fabiodevelopment/" target="_blank">Fabio Haddad Paes</a></b>
 </p>
 
 <p align="center">
