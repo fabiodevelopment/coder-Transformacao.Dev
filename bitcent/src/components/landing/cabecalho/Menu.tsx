@@ -1,12 +1,12 @@
 import { IconBrandGoogle } from "@tabler/icons-react";
 import MenuItem from "./MenuItem";
+import { useContext } from "react";
+import AutenticacaoContext from "@/data/contexts/AutenticacaoContext";
 
 
 export default function Menu() {
 
-    function loginGoogle() {
-        console.log('loginGoogle')
-    }
+    const { loginGoogle } = useContext(AutenticacaoContext)
 
     return (
         <div className="flex gap-2">
@@ -19,7 +19,7 @@ export default function Menu() {
             <MenuItem url="#depoimentos" className="hidden sm:flex">
                 Depoimentos
             </MenuItem>
-            <MenuItem onClick={loginGoogle} url="#depoimentos" className="hidden sm:flex bg-gradient-to-r from-pink-500 to-violet-500">
+            <MenuItem onClick={loginGoogle} className="hidden sm:flex bg-gradient-to-r from-pink-500 to-violet-500">
                 <div className="flex items-center gap-2">
                     <span><IconBrandGoogle size={15} strokeWidth={2} /></span>
                     <span>Login</span>
