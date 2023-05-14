@@ -1,10 +1,10 @@
 <p align="center">
-<img src="react-next/bitcent/public/images/assets-images/logo.png" alt="Logo" width="100" />
+<img src="/bitcent/public/images/readme/logo.png" alt="Logo" width="100" />
 </p>
 
 <p align="center">
-Projeto desenvolvido durante a semana
- Repositório Bitcent <b>versão completa</b>
+Projeto desenvolvido durante a semana Transformação Dev - Coder Cursos.
+Repositório Bitcent <b>versão Implementada e customizada por [Fabio Haddad Paes](https://github.com/fabiodevelopment/)</b>
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@ Projeto desenvolvido durante a semana
 </p>
 
 <h2 align="center">
-    <img alt="Bitcent" src="react-next/bitcent/public/images/assets-images/cover.png" />
+    <img alt="Bitcent" src="/bitcent/public/images/readme/cover.png" />
 </h2>
 
 <br>
