@@ -8,7 +8,7 @@ import Lista from "./Lista";
 import Transacao, { TransacaoVazia } from "@/logic/core/financas/Transacao";
 import transacoesFalsas from "@/data/constants/transacoesFalsas";
 import Formulario from "./Formulario";
-import NaoEncontrado from "../template/NãoEncontrado";
+import NaoEncontrado from "../template/NaoEncontrado";
 import Id from "@/logic/core/comum/Id";
 import { Button } from "@mantine/core";
 import { IconPlus } from "@tabler/icons-react";
