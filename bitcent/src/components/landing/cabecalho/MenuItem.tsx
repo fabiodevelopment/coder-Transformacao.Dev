@@ -11,7 +11,6 @@ interface MenuItemProps {
 export default function MenuItem(props: MenuItemProps) {
 
     function renderizarBotao() {
-        console.log('renderizarBotao')
         return (
             <div className={`
                 flex justify-center items-center cursor-pointer
