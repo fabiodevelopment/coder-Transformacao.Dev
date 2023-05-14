@@ -12,13 +12,13 @@ export default function TituloPagina(props: TituloPaginaProps) {
         <div className={`flex items-center gap-2 ${props.className ?? ''}`}>
             {props.icone && (
                 <div className={`
-                    text-zinc-500
+                    text-zinc-200
                 `}>{React.cloneElement(props.icone, {
                     stroke: 1,
                     size: props.secundario ? 50 : 24
                 })}</div>
             )}
-            <div className="flex flex-col text-zinc-500">
+            <div className="flex flex-col text-zinc-200">
                 <h1 className="text-2xl font-black">
                     {props.principal}
                 </h1>

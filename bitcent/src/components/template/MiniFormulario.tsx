@@ -14,18 +14,18 @@ export default function MiniFormulario(props: MiniFormularioProps) {
     return (
         <div className={`
             flex flex-col overflow-hidden
-            border border-zinc-800 rounded-lg
+            border border-violet-800 rounded-lg bg-neutral-900
         `}>
             <div className="flex flex-col p-7">
                 <div className="text-3xl font-black">{props.titulo}</div>
-                <div className="mt-4 text-zinc-400">{props.descricao}</div>
+                <div className="mt-4 text-zinc-200">{props.descricao}</div>
                 <div className="mt-3">
                     {props.children}
                 </div>
             </div>
             <div className={`
                 flex justify-end md:justify-between items-center
-                bg-black px-7 py-5
+                bg-neutral-800 px-7 py-5
             `}>
                 <span className="hidden md:inline text-zinc-400">{props.msgRodape}</span>
                 <Button

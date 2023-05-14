@@ -19,10 +19,11 @@ export default function Formulario(props: FormularioProps) {
 
     return (
         <div className={`
-            flex flex-col border border-zinc-700
-            rounded-xl overflow-hidden
+            flex flex-col
+            rounded-xl overflow-hidden 
+            bg-neutral-900 border border-violet-800
         `}>
-            <div className="bg-black py-3 px-7 text-zinc-400">Formulário</div>
+            <div className="bg-violet-900 py-3 px-7 text-white">Formulário</div>
             <div className="flex flex-col gap-4 p-4 sm:p-7">
                 <TextInput
                     label="Descricao"
@@ -51,7 +52,7 @@ export default function Formulario(props: FormularioProps) {
                     </Group>
                 </Radio.Group>
             </div>
-            <div className="flex px-4 sm:px-7 py-4 gap-3 bg-zinc-800">
+            <div className="flex px-4 sm:px-7 py-4 gap-3 bg-neutral-800">
                 <Button
                     className="bg-green-500" color="green"
                     onClick={() => props.salvar?.(dados)}

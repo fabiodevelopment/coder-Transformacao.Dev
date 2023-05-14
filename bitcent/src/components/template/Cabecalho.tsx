@@ -5,7 +5,7 @@ export default function Cabecalho() {
     return (
         <div className={`
             flex justify-between items-center
-            p-7 border-b border-violet-900
+            p-7 border-b border-violet-800 bg-violet-900
         `}>
             <BoasVindas />
             <MenuUsuario />

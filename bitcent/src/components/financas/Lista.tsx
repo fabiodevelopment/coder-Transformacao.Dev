@@ -40,7 +40,7 @@ export default function Lista(props: ListaProps) {
 
     return (
         <div className={`
-            flex flex-col border border-zinc-700
+            flex flex-col border border-violet-900
             rounded-xl overflow-hidden
         `}>
             {props.transacoes.map(renderizarLinha)}

@@ -20,8 +20,8 @@ export default function Grade(props: GradeProps) {
                     absolute top-0 left-0 w-full h-full
                     bg-gradient-to-r opacity-60
                     ${transacao.tipo === TipoTransacao.RECEITA
-                        ? 'from-teal-500 via-green-600 to-teal-700'
-                        : 'from-pink-500 via-red-600 to-pink-700'
+                        ? 'from-teal-600 via-green-500 to-teal-600'
+                        : 'from-pink-600 via-red-600 to-pink-600'
                     }
                 `}></div>
                 <div className="flex justify-between items-center">

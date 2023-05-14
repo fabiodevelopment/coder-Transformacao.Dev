@@ -15,7 +15,7 @@ export default function Pagina(props: PaginaProps) {
                     ${props.externa ? (
                     'bg-gradient-to-b from-violet-950 to-slate-950'
                 ) : (
-                    'bg-neutral-950'
+                    'bg-gradient-to-b from-gray-900 to-purple-950'
                 )}
                     ${props.className ?? ''}
                 `}>
